@@ -137,3 +137,32 @@ img {
 .row{
     width: 740px;
 }
+
+h2{
+    width: 740px;
+}
+
+.text-center{
+    width: 790px;
+}
+
+@media (max-width: 480px)
+{
+    body{
+        margin-left: auto;
+    }
+    .container{
+        width: 480px;
+        padding: 0px;
+    }
+    .lessons .col{
+        margin-bottom: 80px;
+    }
+    .text-center{
+        width: 440px;
+    }
+    .row{
+        display: block;
+        align-items: center;
+    }
+}
