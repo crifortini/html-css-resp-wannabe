@@ -165,4 +165,56 @@ h2{
         display: block;
         align-items: center;
     }
+    h2{
+        width: 460px;
+    }
+    .card{
+        margin-left: 80px;
+    }
+
+    .steps .col{
+        width: calc(150%/3);
+    }
+
+    .col{
+        margin-bottom: 40px;
+    }
+
+    .col .col-left{
+       margin-left: 20px;
+    }
+
+    .why-us{
+        background-color: black;
+        width: 480px;
+        margin-bottom: 0px;
+    }
+
+
+    .why-us li{
+        margin-bottom: 0px;
+    }
+
+    .why-us .col-right{
+        margin-bottom: 0px;
+    }
+    .steps{
+        margin: 0px;
+    }
+
+    
+
+    .container h2{
+        font-size: 40px;
+        width: 440px;
+    }
+
+    .why-us .col-left{
+        margin-left: 80px;
+    }
+
+    .col .col-right{
+        padding-bottom: 20px;
+    }
+
 }
